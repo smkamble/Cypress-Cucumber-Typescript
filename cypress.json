@@ -1,0 +1,11 @@
+{
+    "baseUrl":"http://google.co.in",
+    "fixturesFolder": "GoogleSearch/fixtures",
+    "integrationFolder": "GoogleSearch/integration",
+    "pluginsFile": "GoogleSearch/plugins/index.js",
+    "screenshotsFolder": "GoogleSearch/screenshots",
+    "supportFile": "GoogleSearch/support/index.js",
+    "videosFolder": "GoogleSearch/videos",
+    "pageLoadTimeout": 30000,
+    "ignoreTestFiles": "**/*.{js,ts}"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "cypress-framework",
+  "version": "1.0.0",
+  "description": "To demostrate Cypress Framework with BDD",
+  "main": "index.js",
+  "private": true,
+  "author": {
+    "name": "Sachin Kamble <skamblem@gmail.com>"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "End-to-End",
+    "Automation",
+    "testing",
+    "BDD",
+    "cypress-cucumber",
+    "xpath"
+  ],
+  "scripts": {
+    "cypress": "cypress open",
+    "test": "cypress run"
+  },
+  "dependencies": {
+    "@types/node": "^12.7.2"
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "^4.1.1",
+    "@types/cypress-cucumber-preprocessor": "^1.12.0",
+    "cypress": "^3.4.1",
+    "cypress-cucumber-preprocessor": "^1.13.1",
+    "cypress-testing-library": "^4.0.0",
+    "cypress-xpath": "^1.4.0",
+    "ts-loader": "^6.0.4",
+    "tsify": "^4.0.1",
+    "typescript": "^3.5.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "./GoogleSearch/support/step_definitions/"
+  }
+}
